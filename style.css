@@ -22,7 +22,7 @@ section {
 }
 
 nav {
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     padding-top: 50px;
 }
 
@@ -30,6 +30,14 @@ footer {
     text-align: center;
     padding: 20px;
     font-size: 20px;
+    overflow: hidden;
+    background-color: rgb(153, 149, 139);
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 5px 5px 15px -2px rgb(65, 47, 20);
+    height: auto;
+    opacity: 0.3;
 }
 
 #meny {
@@ -40,6 +48,9 @@ footer {
         max-width: 100%;
         margin: 0 auto;
         height: auto;
+        background-color: rgb(105, 93, 78);
+        opacity: 0.5;
+        padding-bottom: 10px;
 }
 
 #meny li {
@@ -50,9 +61,11 @@ footer {
     display: inline-block;
     padding: 15px;
     text-decoration: none;
-    color: saddlebrown;
+    color: rgb(169, 156, 147);
+}
 
-
+#meny a:hover {
+    color:rgb(65, 47, 20);
 }
 
 .banner {
@@ -65,11 +78,12 @@ footer {
         max-width: 100%;
         box-shadow: 5px 5px 15px -2px rgb(65, 47, 20);
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
 }
 
 .rubrik {
-        font-size: 60px;
+        font-size: 70px;
+        opacity: 0.7;
 }
 
 .text {
@@ -89,6 +103,7 @@ footer {
     text-align: center;
     font-size: 30px;
     color:rgb(130, 122, 116);
+    font-weight: lighter;
 }
 
 img {
@@ -96,4 +111,5 @@ img {
     padding-right: 40px;
     padding-bottom: 40px; 
 	transform: rotate(3deg); 
+    border-radius: 50%;
 }
